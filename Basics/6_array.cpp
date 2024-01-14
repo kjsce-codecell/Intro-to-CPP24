@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    //int a = 5;
     int ar[3] ={1,2,3};
     array<int, 5> arr = {1, 2, 3, 4, 5}; //array<datatype, size> name = {content}
 

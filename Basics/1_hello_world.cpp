@@ -9,9 +9,6 @@ As the same name cannot be given to multiple variables, functions, classes, etc.
 So to overcome this situation namespace is introduced.
 */
 
-
-
-
 int main(){
     /*This is where you code goes*/
     cout << "Hello World";

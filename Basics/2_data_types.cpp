@@ -6,7 +6,8 @@ using namespace std;
 int main () {
     int number = 42;  // Declare an integer variable 'number' with the value 42
     cout << "Number: " << number << endl; // Print the value of 'number'
-    
+    //-2147483648 to 2147483647 --> max value
+
 
     char letter = 'A';
     cout << "Letter: " << letter << endl;
@@ -17,7 +18,8 @@ int main () {
    
 
     bool isTrue = true;
-    cout << "Is True? " << isTrue << endl;
+    cout << "Is True? " << isTrue << endl; //Will return 1 for true and 0 for false
+    //Any value other than Zero including negative numbers indicate true and Zero itself is false
     
 
     double bigDecimal = 2.238768;
@@ -25,25 +27,19 @@ int main () {
     
 
     
-    // so what is the difference between float and double?
-
-    double n;
-    n = 1e24;
-    cout << fixed << n << endl; // 999999999999999983222784.000000
-    
-    // so using double is less accurate than using float
+    //Double can be used to make more accurate numbers than float meaning they have more decimal places
 
 
     
-    long int bigNumber = 26783483648; 
+    long int bigNumber = 2678348364;  //-9223372036854775808 to 9223372036854775807 --> max value
     cout << "Long Integer: " << bigNumber << endl;
     
 
-    long long int biggerNumber = 9836253642036854775807; 
+    long long int biggerNumber = 9836253642036854; //-(2^63) to (2^63)-1 --> max value
     cout << "Long Long Integer: " << biggerNumber << endl;
 
 
-    string message = "Hello, C++!";
+    string message = "Hello, C++!";  //Strings are a collection of characters
     cout << "Messages: " << message << endl;
     return 0; // Return 0 to indicate successful program execution    
 }

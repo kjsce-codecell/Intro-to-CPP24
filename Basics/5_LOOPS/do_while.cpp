@@ -7,12 +7,15 @@
 using namespace std;
 
 int main() {
-    int i = 1;
+    int i = 11;
     do {
         cout << i << endl;
         ++i;
     } 
     while (i <= 10);
+
+    //Output:
+    //11
     
     return 0;
 }

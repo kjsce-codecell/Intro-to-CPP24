@@ -38,18 +38,18 @@ void PrintHello()
 
 int main()
 {
-    int sum = add2numbers(5, 5);
-    cout << sum << "\n";
-
     if(oddOrEven(16))
     {
-        cout << "Even" << "\n";
+        cout << "Even" << "\n"; //output: Even
     }
 
     else
     {
-        cout << "Odd" << "\n";
+        cout << "Odd" << "\n"; //output: Odd
     }
 
-    PrintHello();
+    int sum = add2numbers(5, 5);
+    cout << sum << "\n"; //output: 10
+
+    PrintHello(); //output: Hello
 }

@@ -1,17 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 /* while (condition) {
     code to be executed repeatedly
 } */
 
-
-#include<bits/stdc++.h>
-using namespace std;
-
 int main() {
-    int i = 1;
+    int i = 0;
     while (i <= 10) {
         cout << i << endl;
         ++i;
     }
+
+    //Ouput:
+    // 0
+    // 1
+    // 2
+    // 3
+    // 4
+    // 5
+    // 6
+    // 7
+    // 8
+    // 9
+    // 10
+
     return 0;
 }
 

@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 /*
-It is a library that Incorporates libraries in the program to use cin, cout like commands.
+we use this to incorporate libraries in the program to use cin, cout like commands.
 just like commands where math operations are used we have to include another library i.e
 */
 using namespace std;

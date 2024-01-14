@@ -16,11 +16,11 @@ cout << endl;
 
 //lets see the iterator way of printing an array 
 //Explain the conept of iterator
-for(auto x:ls1){
+for(auto x:ls){
     cout << x <<" ";
 }
 //we can also create multidiemensional array
-vector<int> ls_2d[3][3] = {{1,0,0},{0,1,0},{0,0,1}};
-    
-
+vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
 }
+
+

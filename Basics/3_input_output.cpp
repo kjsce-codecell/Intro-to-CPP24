@@ -6,7 +6,7 @@ int main(){
     int a;
     /*std::*/cin >> a;
     //as you can see we first declared a variable 'a' which is of type int then using cin>> we take input
-    //please just dont be confuzed betweeb >> and << we use >> in cin
+    //please just dont be confused between >> and << we use >> in cin
 
     string b;
     cin >> b;

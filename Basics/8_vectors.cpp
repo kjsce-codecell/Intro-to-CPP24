@@ -19,5 +19,8 @@ cout << endl;
 for(auto x:ls){
     cout << x <<" ";
 }
+//we can also create multidiemensional array
+vector<int> ls[3][3] = {{1,0,0},{0,1,0},{0,0,1}};
+    
 
 }

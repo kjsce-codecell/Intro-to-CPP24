@@ -24,6 +24,17 @@ int main () {
     cout << "Big Decimal: " << bigDecimal << endl;
     return 0;
 
+    
+    // so what is the difference between float and double?
+
+    double n;
+    n = 1e24;
+    cout << fixed << n << endl; // 999999999999999983222784.000000
+    return 0;
+    // so using double is less accurate than using float
+
+
+    
     long int bigNumber = 26783483648; 
     cout << "Long Integer: " << bigNumber << endl;
     return 0;

@@ -1,11 +1,10 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int main(){
     //For taking input we first declare a blank variable in which we are gonna take input in
-    int a;
-    cin >> a;
+    int a = 5;
+    /*std::*/cin >> a;
     //as you can see we first declared a variable 'a' which is of type int then using cin>> we take input
     //please just dont be confuzed betweeb >> and << we use >> in cin
 

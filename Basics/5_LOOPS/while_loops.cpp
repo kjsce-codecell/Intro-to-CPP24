@@ -12,6 +12,8 @@ int main() {
         ++i;
     }
 
+    cout << endl;
+
     //Ouput:
     // 0
     // 1
@@ -24,6 +26,20 @@ int main() {
     // 8
     // 9
     // 10
+
+    //break is a keyword we use when we want to stop the execution of a loop
+
+    i = 0; //no need to redefine
+
+    while(i <= 10)
+    {
+        cout << i << endl;
+        if(i == 5)
+        {
+            break;
+        }
+        ++i;
+    }
 
     return 0;
 }

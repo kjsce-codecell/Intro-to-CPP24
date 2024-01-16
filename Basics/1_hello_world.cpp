@@ -1,12 +1,13 @@
 #include<bits/stdc++.h>
 /*
-we use this to incorporate libraries in the program to use cin, cout like commands.
+It is a library that Incorporates libraries in the program to use cin, cout like commands.
 just like commands where math operations are used we have to include another library i.e
 */
 using namespace std;
 /*
-As the same name cannot be given to multiple variables, functions, classes, etc. in the same scope.
-So to overcome this situation namespace is introduced.
+They are used to organize code into logical groups and to prevent name 
+collisions that can occur especially when the code base include mutiple LIb
+Namespace provide the space where we can define or declare identifier i.e. variable,  method, classes.
 */
 
 int main(){

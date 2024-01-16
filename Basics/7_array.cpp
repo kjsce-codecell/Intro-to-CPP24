@@ -8,15 +8,16 @@ int main(){
     array<int, 5> arr = {1, 2, 3, 4, 5}; //array<datatype, size> name = {content}
 
     string fruits[3] = {"apple","mango","banana"};
-
+    cout << ar[0] << endl; //output: 1
     int n = sizeof(ar)/sizeof(ar[0]);
     // sizeof(ar) = 12 bytes
     // sizeof(ar[0]) = 4 bytes
     // 12/4 = 3
+   
     
     cout << n << endl;
 
-    cout << ar[0] << endl; //output: 1
+
 
     for (int i = 0; i < n; ++i) {
         cout << ar[i] << " "; //output: 1 2 3

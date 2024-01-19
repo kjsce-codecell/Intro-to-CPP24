@@ -5,7 +5,6 @@ int main(){
     vector<int> ls = {1,2,3,4,5};
 //  vector_declaration<data_type> name_of_vector = {values of the vector}
 
-
 //so how do we print the vector for that actually there are two ways let's see them
 
 for(int i = 0; i < ls.size(); i++){

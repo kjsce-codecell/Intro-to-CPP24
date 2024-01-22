@@ -21,5 +21,25 @@ int main() {
         cout << "Zero. " << endl;
     }
 
+    bool a = true;
+    bool b = true;
+
+    if(a && b) //All conditions need to be true
+    {
+        cout << "Both A and B are true" << endl;
+    }
+
+    b = false;
+
+    if(a && b) //Since both a and b are not true this will not execute
+    {
+        cout << "This line will not print";
+    }
+
+    if(a || b)//Since at least A is true
+    {
+        cout << "At least A is true" <<  endl;
+    }
+
     return 0;
 }

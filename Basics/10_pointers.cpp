@@ -19,7 +19,7 @@ int main() {
     
     *point_a = 10; 
     cout << *point_a << endl; // 10 
-    cout << point_a << a << endl; // 0x61ff0810 
+    cout << point_a << "\n" <<  a << endl; // 0x61ff0810 
 
     string x = "Hello There";
     // here x is a string variable.

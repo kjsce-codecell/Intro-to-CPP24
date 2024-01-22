@@ -14,11 +14,27 @@ for(int i = 0; i < ls.size(); i++){
 }
 cout << endl;
 
+int to_find;
+cout << "Enter number to find" << endl;
+cin >> to_find;
+int index = -1;
+
+for(int i = 0; i < ls.size(); ++i)
+{
+    if(ls[i] == to_find)
+    {
+        index = i;
+    }
+}
+
+cout << index << endl;
+
 //lets see the iterator way of printing an array 
 //Explain the conept of iterator
-for(auto x:ls){
+
+for(auto x : ls){
     cout << x <<" ";
-}
+    }
 //we can also create multidiemensional array
 vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
 }

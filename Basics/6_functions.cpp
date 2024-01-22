@@ -11,7 +11,7 @@ using namespace std;
 //Functions can choose to have a return type such as "int" or "bool" or any other data types.
 //You can also use "void" to make it so a function doesn't need to return anything.
 
-bool oddOrEven(int a)
+bool isEven(int a)
 {
     if(a%2 == 0) // 
     {
@@ -38,7 +38,7 @@ void PrintHello()
 
 int main()
 {
-    if(oddOrEven(16))
+    if(isEven(16))
     {
         cout << "Even" << "\n"; //output: Even
     }

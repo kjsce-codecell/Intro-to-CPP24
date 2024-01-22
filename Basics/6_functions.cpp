@@ -3,7 +3,7 @@ using namespace std;
 
 //functions are resuable blocks of code.
 
-// int function(parameter, parameter)
+// int function(parameters if any)
 // {
 //        {Reusable code block}
 // }

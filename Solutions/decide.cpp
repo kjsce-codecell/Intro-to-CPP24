@@ -7,13 +7,13 @@ int main(){
     while(t--){
         int a,b,c;
         cin >> a >> b >> c;
-        int temp = a + b + c;
+        int temp = a + b + c;   // temp represents how many people can solve the question
         
         if(temp >= 2){
             ans += 1;
         }
         else{
-            continue;;
+            continue;
         }
 }
 cout << ans << endl;

@@ -14,6 +14,16 @@ int main() {
 
     cout << endl;
 
+
+// condition is checked first
+
+// if condition is true, the code inside the loop is executed
+// then the iteration is executed
+
+// then the condition is checked again
+// if the condition is false, the loop is terminated
+
+
     //Ouput:
     // 0
     // 1
@@ -43,13 +53,5 @@ int main() {
 
     return 0;
 }
-
-// condition is checked first
-
-// if condition is true, the code inside the loop is executed
-// then the iteration is executed
-
-// then the condition is checked again
-// if the condition is false, the loop is terminated
 
 // while loop is slightly faster than for loop.

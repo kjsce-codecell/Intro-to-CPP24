@@ -24,21 +24,16 @@ int main () {
 
     double bigDecimal = 2.238768;
     cout << "Big Decimal: " << bigDecimal << endl;
-    
-
-    
-    //Double can be used to make more accurate numbers than float meaning they have more decimal places
-
+    // float and double are used to store decimal numbers
+    // Float can store upto 6 decimal places
+    // Double can store upto 15 decimal places
+    // But double costs us accuracy and more memory than float
 
     
     long int bigNumber = 2678348364;  //-9223372036854775808 to 9223372036854775807 --> max value
     cout << "Long Integer: " << bigNumber << endl;
     
-
-    long long int biggerNumber = 9836253642036854; //-(2^63) to (2^63)-1 --> max value
-    cout << "Long Long Integer: " << biggerNumber << endl;
-
-
+    
     string message = "Hello, C++!";  //Strings are a collection of characters
     cout << "Messages: " << message << endl;
     return 0; // Return 0 to indicate successful program execution    

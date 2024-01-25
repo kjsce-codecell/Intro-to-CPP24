@@ -15,7 +15,9 @@ int main(){
         else{
             continue;
         }
-}
-cout << ans << endl;
+    }
+    
+    cout << ans << endl;
 
+    return 0;
 }

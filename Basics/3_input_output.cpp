@@ -18,5 +18,6 @@ int main(){
     // " " is given because to provide space between the outputs
     // there are 2 ways \n and endl here \n is faster
 
+    return 0;
 }
 

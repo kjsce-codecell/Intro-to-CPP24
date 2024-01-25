@@ -39,7 +39,7 @@ int main(){
 
     cout << index << endl;
 
-    //we can also create multidiemensional vector
+    //we can also create multidimensional vector
     vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
 
     return 0;

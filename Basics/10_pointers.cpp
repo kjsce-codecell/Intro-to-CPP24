@@ -27,4 +27,5 @@ int main() {
     cout << &x; 
     // This will print the address of the variable x.
 
+    return 0;
 }

@@ -52,4 +52,6 @@ int main()
     cout << sum << "\n"; //output: 10
 
     PrintHello(); //output: Hello
+
+    return 0;
 }

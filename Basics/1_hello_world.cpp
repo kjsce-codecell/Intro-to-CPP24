@@ -6,9 +6,9 @@ It's like preparing a toolbox before starting work.
 */
 using namespace std;
 /*
-They are used to organize code into logical groups and to prevent name 
-collisions that can occur especially when the code base include mutiple LIb
-Namespace provide the space where we can define or declare identifier i.e. variable,  method, classes.
+It is used to indicate that the code will use the standard namespace (std) in C++.
+It simplifies code by allowing direct use of standard library components,
+without the need to prefix them with std:: 
 
 This line tells the computer that we'll be using some common tools, 
 and we'll refer to them as 'std' to avoid any confusion.

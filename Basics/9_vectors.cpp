@@ -3,44 +3,44 @@ using namespace std;
 int main(){
     //let's first declare a vector
     vector<int> ls = {1,2,3,4,5};
-//  vector_declaration<data_type> name_of_vector = {values of the vector}
-
-//so how do we print the vector for that actually there are two ways let's see them
-
-for(int i = 0; i < ls.size(); i++){
-    //size() keyword is use for getting size of the vector basically size() = sizeof(array)/sizeof(array[0])
-    cout << ls[i] << " ";
-}
-cout << endl;
-
-// lets see the iterator way of printing a vector 
-
-for(auto x : ls){
-    cout << x <<" ";
+    // vector_declaration<data_type> name_of_vector = {values of the vector}
+    
+    for(int i = 0; i < ls.size(); i++){
+        //size() keyword is use for getting size of the vector basically size() = sizeof(array)/sizeof(array[0])
+        cout << ls[i] << " ";
     }
+    cout << endl;
 
+    // lets see the iterator way of printing a vector 
 
-// Linear search in vector 
-// Linear search is a searching algorithm that finds the position of a target value within an array or vector.
+    for(auto x : ls){
+        cout << x <<" ";
+        }
 
-// vector<int> ls = {1,2,3,4,5};
+    cout << endl;
 
-int to_find;
-cout << "Enter number to find" << endl;
-cin >> to_find;
-int index = -1;
+    // Linear search in vector 
+    // Linear search is a searching algorithm that 
+    // finds the position of a target value within an array or vector.
+    // vector<int> ls = {1,2,3,4,5};
 
-for(int i = 0; i < ls.size(); ++i)
-{
-    if(ls[i] == to_find)
+    int to_find;
+    cout << "Enter number to find" << endl;
+    cin >> to_find;
+    int index = -1;
+
+    for(int i = 0; i < ls.size(); ++i)
     {
-        index = i;
+        if(ls[i] == to_find)
+        {
+            index = i;
+        }
     }
-}
 
-cout << index << endl;
+    cout << index << endl;
 
+    //we can also create multidiemensional vector
+    vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
 
-//we can also create multidiemensional array
-vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
+    return 0;
 }

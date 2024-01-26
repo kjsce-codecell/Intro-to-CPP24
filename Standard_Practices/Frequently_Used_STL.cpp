@@ -21,6 +21,7 @@ int main()
     {
         cout << x << endl;
     }
+    
     int biggernum = max(25, 50);
     int smallernum = min(30, 60);
 
@@ -39,4 +40,6 @@ int main()
 
     cout << "Max number is " << maxnum << endl;
     cout << "Min number is " << minnum << endl;
+
+    return 0;
 }

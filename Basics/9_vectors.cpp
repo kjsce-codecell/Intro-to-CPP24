@@ -39,6 +39,26 @@ int main(){
 
     cout << index << endl;
 
+    //Input things into a vector
+    vector<int> vec = {};
+    int element;
+
+    cout << "Enter elements into array: \n";
+
+    for(int i = 0; i < 5; ++i)
+        {
+            cin >> element;
+            vec.push_back(element);
+            //similarly vec.pop_back() is used to remove the last element of vector
+        }
+    
+    cout << "Elements of the array are: \n";
+
+    for(auto x : vec)
+    {
+        cout << x << endl;
+    }
+
     //we can also create multidimensional vector
     vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};
 

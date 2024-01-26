@@ -37,7 +37,7 @@ int main(){
         }
     }
 
-    cout << index << endl;
+    cout << "The Index of Number is: "<<  index << endl;
 
     //we can also create multidimensional vector
     vector<vector<int>> ls_2d = {{1,0,0},{0,1,0},{0,0,1}};

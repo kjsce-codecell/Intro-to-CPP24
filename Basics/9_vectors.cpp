@@ -46,11 +46,11 @@ int main(){
     cout << "Enter elements into array: \n";
 
     for(int i = 0; i < 5; ++i)
-        {
-            cin >> element;
-            vec.push_back(element);
-            //similarly vec.pop_back() is used to remove the last element of vector
-        }
+    {
+        cin >> element;
+        vec.push_back(element);
+        //similarly vec.pop_back() is used to remove the last element of vector
+    }
     
     cout << "Elements of the array are: \n";
 

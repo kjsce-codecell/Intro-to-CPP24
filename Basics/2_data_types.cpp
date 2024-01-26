@@ -30,10 +30,10 @@ int main () {
     // But double costs us accuracy and more memory than float
 
     
-    long int bigNumber = 2678348364;  //-9223372036854775808 to 9223372036854775807 --> max value
-    cout << "Long Integer: " << bigNumber << endl;
+    long long int bigNumber = 2147483650;  //-9223372036854775808 to 9223372036854775807 --> max value
+    cout << "Long Long Integer: " << bigNumber << endl;
     
-    
+
     string message = "Hello, C++!";  //Strings are a collection of characters
     cout << "Messages: " << message << endl;
     return 0; // Return 0 to indicate successful program execution    

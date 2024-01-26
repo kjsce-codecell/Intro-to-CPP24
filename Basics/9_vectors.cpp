@@ -37,7 +37,7 @@ int main(){
         }
     }
 
-    cout << index << endl;
+    cout << "The Index of Number is: "<<  index << endl;
 
     //Input things into a vector
     vector<int> vec = {};

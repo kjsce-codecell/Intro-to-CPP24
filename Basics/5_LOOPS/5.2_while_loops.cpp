@@ -23,20 +23,6 @@ int main() {
 // then the condition is checked again
 // if the condition is false, the loop is terminated
 
-
-    //Ouput:
-    // 0
-    // 1
-    // 2
-    // 3
-    // 4
-    // 5
-    // 6
-    // 7
-    // 8
-    // 9
-    // 10
-
     //break is a keyword we use when we want to stop the execution of a loop
 
     i = 0; //no need to redefine

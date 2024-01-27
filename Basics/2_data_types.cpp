@@ -21,6 +21,13 @@ int main () {
     cout << "Is True? " << isTrue << endl; //Will return 1 for true and 0 for false
     //Any value other than Zero including negative numbers indicate true and Zero itself is false
     
+    
+    long long int bigNumber = 2147483650;  
+    cout << "Long Long Integer: " << bigNumber << endl;
+    // -2^63 to 2^63 - 1
+    //-9223372036854775808 to 9223372036854775807 --> max value
+ 
+    
 
     double bigDecimal = 2.238768;
     cout << "Big Decimal: " << bigDecimal << endl;
@@ -29,10 +36,6 @@ int main () {
     // Double can store upto 15 decimal places
     // But double costs us accuracy and more memory than float
 
-    
-    long long int bigNumber = 2147483650;  //-9223372036854775808 to 9223372036854775807 --> max value
-    cout << "Long Long Integer: " << bigNumber << endl;
-    
 
     string message = "Hello, C++!";  //Strings are a collection of characters
     cout << "Messages: " << message << endl;

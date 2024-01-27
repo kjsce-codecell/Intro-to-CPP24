@@ -5,7 +5,8 @@ using namespace std;
 
 int main() {
     int a = 5;
-    int *point_a = &a; 
+    int *point_a ;
+        *point_a = &a;
     
     // This is a pointer variable. It stores the address of the variable a.
     // To declare pointer variable, use the * sign before the variable name.

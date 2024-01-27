@@ -39,5 +39,3 @@ int main() {
 
     return 0;
 }
-
-// while loop is slightly faster than for loop.

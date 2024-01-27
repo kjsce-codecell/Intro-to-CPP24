@@ -25,5 +25,3 @@ int main() {
 // then the condition is checked
 // if the condition is true, the loop is executed again
 // if the condition is false, the loop is terminated
-
-// do while loop is slightly slower than while loop and for loop.

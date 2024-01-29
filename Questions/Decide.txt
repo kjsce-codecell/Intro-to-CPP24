@@ -12,8 +12,8 @@ Help the friends find the number of problems for which they will write a solutio
 input
 The first input line contains a single integer n (1 ≤ n ≤ 1000) — the number of problems in the contest. 
 Then n lines contain three integers each, each integer is either 0 or 1. 
-If the first number in the line equals 1, then Kanye is sure about the problem's solution, otherwise he isn't sure. 
-The second number shows Travis's view on the solution, the third number shows Lebron's view. 
+If the first number in the line equals 1, then Arya is sure about the problem's solution, otherwise he isn't sure. 
+The second number shows Pargat's view on the solution, the third number shows Dhruv's view. 
 The numbers on the lines are separated by spaces.
 
 

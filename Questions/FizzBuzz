@@ -8,6 +8,14 @@ For each multiple of 5, print "Buzz" instead of the number.
 
 For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
+Input Format:
+
+The first and only line of input contains a single integer "n" representing the range of digits.
+
+Output format:
+
+Output n lines each contain integer from range 1 to n where if the number is divisible by 3, print "Fizz", if number is divisible by 5, print "Buzz", and if number is divisible by both, print "FizzBuzz".
+
 Sample input:
 18
 

@@ -33,11 +33,11 @@ int main() {
         cout << "Element is not present in array" << endl;
     }
 
-    bool index = binary_search(arr.begin(), arr.end(), 12); 
+    bool exists = binary_search(arr.begin(), arr.end(), 12); 
     //STL Function for Binary Search
     //Only returns True or False
 
-    cout << index << endl;
+    cout << exists << endl;
 
     return 0;
 }

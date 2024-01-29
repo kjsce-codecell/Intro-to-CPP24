@@ -18,4 +18,4 @@ The numbers on the lines are separated by spaces.
 
 
 output
-Print a single integer — the number of problems the friends will implement on the contest
+Print a single integer — the number of problems the friends will implement on the contest.

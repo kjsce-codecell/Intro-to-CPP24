@@ -4,11 +4,11 @@
 
 Resources:
 
-USACO Guide --> https://usaco.guide/
+🚀USACO Guide --> https://usaco.guide/
 
-Practice on Hackerrank --> https://www.hackerrank.com/domains/algorithms/
+🧑🏻‍💻Practice on Hackerrank --> https://www.hackerrank.com/domains/algorithms/
 
-Codechef weekly contests --> https://www.codechef.com/
+🧑🏻‍💻Codechef weekly contests --> https://www.codechef.com/
 
-Codeforces for practice and contests --> https://codeforces.com/
+🧑🏻‍💻Codeforces for practice and contests --> https://codeforces.com/
 

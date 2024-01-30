@@ -22,9 +22,9 @@ int main()
     int a;
     cin >> a;
     if(isPrime(a)){
-      cout << " true\n";
+      cout << "true\n";
     } else {
-      cout << " false\n";
+      cout << "false\n";
     }
     
     return 0;
